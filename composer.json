@@ -1,0 +1,13 @@
+{
+  "name": "merlin/fix-dom-merger",
+  "description": "Hooks into Magento\Framework\View\Element\UiComponent\Config\DomMerger::merge(). Skips the merge if the XML is empty (or whitespace). Adds logging to see who is calling it with empty XML.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=8.0",
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": { "Merlin\\FixDomMerger\\": "" }
+  }
+}
