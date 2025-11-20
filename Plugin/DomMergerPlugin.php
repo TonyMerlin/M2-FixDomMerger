@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Vendor\FixDomMerger\Plugin;
+namespace Merlin\FixDomMerger\Plugin;
 
 use Magento\Framework\View\Element\UiComponent\Config\DomMerger;
 use Psr\Log\LoggerInterface;
